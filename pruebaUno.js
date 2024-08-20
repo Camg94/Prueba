@@ -11,12 +11,16 @@ numbers.forEach(number => {
 
         if(filteredDigits.length > 0 && Number(filteredDigits) !== 0){
             resultado.push(Number(filteredDigits));
+
         }
     });
+    console.log(resultado);
 }
-const numbers =  [19, 29, 39, 39, 59, 69, 79, 89, 99];
+
+const numbers =  [19, 29, 39, 39, 59, 69, 79, 89, 100];
 const S = 9;
 switchPositions(numbers, S)
+
 
 
 
